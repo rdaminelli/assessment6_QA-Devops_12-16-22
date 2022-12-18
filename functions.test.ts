@@ -2,9 +2,9 @@ const {shuffleArray} = require('./utils')
 
 describe('shuffleArray should', () => {
     // CODE HERE
-    let testArr = [9, 5, 29, 0, 999, -4.5, [5, 6, 12]];
+    let testArr = [9, 5, 29, 0, 999, -4.5];
     let shuffledArr = shuffleArray(testArr);
-    
+
     test('check that shuffleArray returns an array', () => {
         expect(Array.isArray(testArr)).toBe(true);
     })
